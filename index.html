@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cinema Baixada</title>
+</head>
+
+<body>
+    <header class="bg-nav text-white text-center py-1">
+        <h1 class="display-4">CINEMA BAIXADA</h1>
+    </header>
+    <img src="img/img-curtinas.png" alt="Imagem de curtinas de palco" width="100%" class="bg-blood">
+
+    <div class="container-fluid p-0 m-0 bg-blood">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="display-2 text-center text-white py-3">EM CARTAZ</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-blood py-5">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="img/poster1.jpg" alt="Poster 1" class="my-2">
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/poster2.jpg" alt="Poster 1" class="my-2">
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/poster3.jpg" alt="Poster 1" class="my-2">
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/poster4.jpg" alt="Poster 1" class="my-2">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-blood">
+        <div class="row">
+            <div class="col-md-12 text-center bg-dark text-white py-3 my-5">
+                <h1>COMPRAR INGRESSOS</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-blood pb-5">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="card">
+                    <div class="card-header text-center display-4">FILME</div>
+                    <div class="card-body">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="filme" id="rbSucker" checked><h4>SuckerPunch - Mundo Surreal (R$8,00)</h4>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="filme" id="rbShrek"><h4>Shrek - O Capítulo Final (3D) (R$12,00)</h4>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="filme" id="rbConto"><h4>O Conto dos Contos (R$8,00)</h4>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="filme" id="rbNise"><h4>Nise - No Coração da Loucura (R$8,00)</h4>
+                              </label>
+                        </div>
+                        <h4 class="py-3 text-danger text-center">Bomboniere:</h4>
+                        <div class="form-check">
+                            <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="ckPipocaPq"><h5>Pipoca Pequena R$5,00</h5>
+          </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="ckPipocaMd"><h5>Pipoca Média R$8,00</h5>
+              </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" id="ckPipocaGd"><h5>Pipoca Grande R$12,00</h5>
+                  </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="ckRefri"><h5>Refrigerante Lata R$5,00</h5>
+          </label>
+                        </div>
+                    </div>
+                    <div class="card-footer">PAGAMENTO ONLINE APENAS COM CARTÃO DE CRÉDITO</div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-center">
+                <img src="img/poster1.jpg" alt="Foto Poster 1" class="img-fluid" id="imgFilme">
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header text-center display-4">TOTAL</div>
+                    <div class="card-body display-3 text-center" id="outPreco">R$ 8,00</div>
+                </div>
+                <button type="button" class="btn btn-success btn-block p-5 my-5" id="btComprar">COMPRAR</button>
+            </div>
+        </div>
+    </div>
+    <img src="img/img-cadeiras.png" alt="Imagem de cadeiras de cinema" width="100%" class="bg-blood pt-4">
+
+
+    <footer class="bg-dark text-white text-center">Todos os direitos reservados - Micheleiro Web - 2019</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/cinema.js"></script>
+</body>
+
+</html>
